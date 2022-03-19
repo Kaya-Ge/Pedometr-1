@@ -7,5 +7,10 @@ public class Main {
         System.out.println("Введите ваше имя: ");
         String name = scanner.nextLine();
         System.out.printf("Hello, %s!", name);
+        System.out.println("");
+        System.out.printf("%s, сколько шагов вы сегодня прошли?", name);
+        System.out.println("");
+        int countOfSteps = scanner.nextInt();
+        System.out.printf("%d — это отличный результат!", countOfSteps);
     }
 }
